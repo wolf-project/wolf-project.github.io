@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Victor FrontDev</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Caminho do código CSS utilizado-->
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" media="screen"/>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand textobranco"><strong>Victor Consuegra</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul> 
+          
+          <ul class ="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link textobranco" href="#projetos"><strong>GitHub</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textobranco" href="#elemento1"><strong>Sobre mim</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textobranco" href="#"><strong>Formação</strong></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textobranco" href="https://linkedin.com/in/consuegravictor"><strong>Contato</strong></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="jumbotron text-center primaryColor">
+        <div class="container">
+                <img class="fotoperfil" src ="images/photo1.png">
+            <h1 class="jumbotron-heading textobranco">Victor Consuegra</h1>
+            <p class="lead text-muted textobranco"><strong>Front-End developer, security analist and enthusiast of IT</strong></p>
+            <p>
+            <a href="#elemento2" class="btn btn-dark my-2">Contato</a>
+          </p>
+        <!-- Ativando o click dos botões e linkando as mídias principais -->
+
+          <a href="https://www.linkedin.com/in/consuegravictor/"><i class="fab fa-linkedin icones"></i></a>
+          <a href="https://github.com/wolf-project"><i class="fab fa-github icones"></i></a>
+          <a href="https://www.facebook.com/ConsuegraVictor"><i class="fab fa-facebook icones"></i></a>
+          
+        </div>
+      </section>
+      <div class="album py-5 bg-light">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulos2" style="padding-bottom: 10px;">Projetos</h2>
+          <div class="row">
+            <div id ="projetos" class="col-md-6">
+              <div class="card mb-6 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Dotfiles" alt="Dotfiles [100%x225]" style="height: 225px; width: 100%; display: block;" src="images/screen1.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Projeto de personalização de estação de trabalho GNU/Linux utilizando o X e i3wm !</p>
+                  <ul>
+                      <table>Projeto: Dotfiles GNU/Linux</table>
+
+                      <li>Shell Script</li>
+                      <li>Python</li>   
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://github.com/wolf-project/DotfilesLinux"><button type="button" class="btn btn-sm btn-outline-secondary">Ver projeto</button></a>
+                    </div>
+                    <small class="text-muted">At 01/02/2021</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-6 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="images/projetopython.png" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Projeto em Python para fixação de contéudo referente a curso feito pelo youtube.</p>
+                  <ul> 
+                      <table>Projeto: Gerador de orçamentos via linha de comando</table>
+                      <li>ShellScript</li>
+                      <li>Python</li>
+                  </ul>
+                </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://github.com/wolf-project/Python-Script-Service-price"><button type="button" class="btn btn-sm btn-outline-secondary">Ver Projeto</button></a>
+                    </div>
+                    <small class="text-muted">At 01/03/2021</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!--Sobre mim, descrições-->
+            <section class ="jumbotron text-center primaryColor">
+                <div id ="elemento1" class ="container">
+                    <h2 class ="jumbotron-heading titulos1"> Sobre mim </h2>
+
+                        <p class ="lead textobranco"> Olá, sou programador <strong>front-end júnior</strong>
+                        e estou buscando uma oportunidade no mercado de trabalho onde eu possa aprimorar 
+                        tudo o que aprendi com <strong>HTML,CSS,JavaScript,Node,bootstrap,python e Git.</strong>
+                        Tenho alguns cursos nesta área, e bastante experiência com sistemas GNU/Linux </p>
+                </div>
+            </section>
+            <!-- Sonhos,metas e -->
+            <section class ="jumbotron text-center secondaryColor">
+                <div class ="container">
+                    <h2 class ="jumbotron-heading titulos1"> Metas e sonhos </h2>
+                    <p class ="lead textobranco">   
+                        
+                        Adquirindo conhecimento,experiência e trabalhando em grandes empresas 
+                        pretendo iniciar projetos open-source e ajudar a comunidade dentro do GitHub. 
+                        A jornada é longa, e o processo de aprimoramento pessoal é árduo
+                        e contínuo. 
+
+                    </p>
+                </div>
+            </section>
+            
+            <!--E-mail para contato-->
+            <section>
+                <div>
+                    <div id="elemento2" class="container-fluid primaryColor footerfontcolor">
+                        <h3 class="text-center titulos1">Buscando recolocação</h3>
+                        <h5 class="text-center">consuegra177@gmail.com</h5>
+                    </div>
+                </div>
+            </section>
+
+            <!--Footer-->
+            <footer class="text-center footerColor">
+                <p class="footerfontcolor">Copyright 2021 Victor Consuegra</p>
+            </footer>
+
+
+    <!-- Bibliotecas bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+<!-- Kit de fontes , estilo Awesome (Personalizar os ícones do rodapé)-->
+    <script src="https://kit.fontawesome.com/b01d4a775b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

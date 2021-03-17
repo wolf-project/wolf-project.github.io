@@ -1,0 +1,53 @@
+/** Estilos globais para estilisar a página**/
+
+/** Arredondar foto perfil**/
+.fotoperfil {
+	width: auto;
+	height: 100%;
+	max-width: 100%;
+	border-radius: 50%;
+
+}
+/** Esquema de cores para background**/
+.primaryColor {
+	background-color: rgb(26, 141, 150);
+}
+.secondaryColor {
+	background-color: rgb(87, 163, 57);
+}
+.footerColor{
+	background-color: rgb(51, 49, 49);
+	padding-top: auto;
+}
+.footerfontcolor {
+	color: white;
+}
+p {
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: black !important;
+}
+
+/** Estilo dos ícones das mídias sociais**/
+.icones {
+	padding-left: 8px;
+	color: black;
+	
+}
+/** Estilisar top menu **/
+.titulos1 {
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+.titulos2 {
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(26, 141,150);
+}
+
+.textobranco {
+	color: white !important;
+
+}
