@@ -55,3 +55,8 @@ p {
 .jumbotron {
 	margin-bottom: 0px;
 }
+
+html {
+	scroll-behavior: smooth;
+	
+}
