@@ -56,7 +56,9 @@ p {
 	margin-bottom: 0px;
 }
 
+/** Scroll suave para ir as seções**/
+
 html {
 	scroll-behavior: smooth;
-	
+
 }
