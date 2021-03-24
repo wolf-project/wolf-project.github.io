@@ -48,6 +48,7 @@ p {
 	color: rgb(26, 141,150);
 }
 
+/** EStilisação não funcionando muito bem em algumas definições**/
 .textobranco {
 	color: white !important;
 
